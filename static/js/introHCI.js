@@ -15,4 +15,13 @@ function initializePage() {
 
 	// Add any additional listeners here
 	// example: $("#div-id").click(functionToCall);
+	$("a.thumbnail").click(projectClick); // Listens to clicks on project <a> elements in HTML file
+}
+function projectClick(e) {
+	// Prevent the page from reloading
+	e.preventDefault();
+
+	// In an event handler, $(this) refers to
+	// the object that triggered the event
+	$(this).css("background-color", "#B8ABA5");
 }

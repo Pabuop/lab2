@@ -10,10 +10,14 @@
 }
 
 /* Defining the style for project class */
+/* OLD CSS 
 .project {
-     background-color: #4F6175;
+     background-color: #deebf7;
      margin-left: 20px;
-}
+     padding: 20px;
+     width: 525px;
+} 
+*/
 
 /* this style exists to make it obvious that you've successfully linked
    the CSS to the page. feel free to remove it once the link is working.
